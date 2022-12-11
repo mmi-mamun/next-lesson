@@ -8,7 +8,13 @@
         "level": "Advanced Beginner",
         "duration": "1 Year",
         "enrollment": "1st january, 2023",
-        "fee": 1299
+        "fee": 6000,
+        "categories": [
+            "Design",
+            "Programming",
+            "Web",
+            "Business"
+        ]
     },
     {
         "id": "CRS02",
@@ -19,7 +25,12 @@
         "level": "Senior developer",
         "duration": "8 Months",
         "enrollment": "2nd February, 2023",
-        "fee": 1499
+        "fee": 12000,
+        "categories": [
+            "Programming",
+            "Web",
+            "Business"
+        ]
     },
     {
         "id": "CRS03",
@@ -30,7 +41,12 @@
         "level": "Beginner",
         "duration": "4 Months",
         "enrollment": "9th November, 2023",
-        "fee": 1099
+        "fee": 5000,
+        "categories": [
+            "Programming",
+            "Design",
+            "Web"
+        ]
     },
     {
         "id": "CRS04",
@@ -41,7 +57,13 @@
         "level": "Junior developer",
         "duration": "1 Year",
         "enrollment": "5th january, 2023",
-        "fee": 1199
+        "fee": 6500,
+        "categories": [
+            "Design",
+            "Programming",
+            "Web",
+            "Business"
+        ]
     },
     {
         "id": "CRS05",
@@ -52,7 +74,12 @@
         "level": "Mid-level developer",
         "duration": "8 Months",
         "enrollment": "16th December, 2022",
-        "fee": 799
+        "fee": 7999,
+        "categories": [
+            "Programming",
+            "Web",
+            "Business"
+        ]
     },
     {
         "id": "CRS06",
@@ -63,7 +90,12 @@
         "level": "Beginner",
         "duration": "6 Months",
         "enrollment": "3rd March, 2023",
-        "fee": 999
+        "fee": 5500,
+        "categories": [
+            "Design",
+            "Web",
+            "Business"
+        ]
     },
     {
         "id": "CRS07",
@@ -74,7 +106,12 @@
         "level": "Beginner",
         "duration": "6 Months",
         "enrollment": "3rd March, 2023",
-        "fee": 1099
+        "fee": 4800,
+        "categories": [
+            "Design",
+            "Web",
+            "Business"
+        ]
     },
     {
         "id": "CRS08",
@@ -85,7 +122,12 @@
         "level": "Beginner",
         "duration": "6 Months",
         "enrollment": "1st April, 2023",
-        "fee": 1199
+        "fee": 5000,
+        "categories": [
+            "Design",
+            "Graphics",
+            "Business"
+        ]
     },
     {
         "id": "CRS09",
@@ -96,7 +138,12 @@
         "level": "Beginner",
         "duration": "4 Months",
         "enrollment": "4th April, 2023",
-        "fee": 1199
+        "fee": 4500,
+        "categories": [
+            "Design",
+            "Graphics",
+            "Business"
+        ]
     },
     {
         "id": "CRS10",
@@ -107,7 +154,10 @@
         "level": "Beginner",
         "duration": "3 Months",
         "enrollment": "2nd May, 2023",
-        "fee": 399
+        "fee": 1800,
+        "categories": [
+            "Business"
+        ]
     },
     {
         "id": "CRS11",
@@ -118,7 +168,10 @@
         "level": "Beginner",
         "duration": "6 Months",
         "enrollment": "5th April, 2023",
-        "fee": 1290
+        "fee": 2500,
+        "categories": [
+            "Business"
+        ]
     },
     {
         "id": "CRS12",
@@ -129,6 +182,11 @@
         "level": "Beginner",
         "duration": "6 Months",
         "enrollment": "7th April, 2023",
-        "fee": 1150
+        "fee": 4500,
+        "categories": [
+            "Design",
+            "Graphics",
+            "Business"
+        ]
     }
 ]
