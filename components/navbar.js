@@ -12,11 +12,11 @@ const Navbar = () => {
         <li><Link href="/teachers" className={`mx-0.5 ${route === '/teachers' && "bg-primary"}`} >Teachers</Link></li>
         <li><Link href="/contact" className={`mx-0.5 ${route === '/contacts' && "bg-primary"}`} >Contact</Link></li>
         <li><Link href="/about" className={`mx-0.5 ${route === '/about' && "bg-primary"}`} >About</Link></li>
-        <li><button className="bg-[blue] text-white active:scale-90 transition uppercase font-medium mx-0.5">Login</button></li>
-        <li><button className="bg-[blue] text-white active:scale-90 transition uppercase font-medium mx-0.5">Register</button></li>
+        <li><button className="bg-accent text-accent-content active:scale-90 transition uppercase font-medium mx-0.5">Login</button></li>
+        <li><button className="bg-accent text-accent-content active:scale-90 transition uppercase font-medium mx-0.5">Register</button></li>
     </>
     return (
-        <div className="navbar bg-base-100 shadow-md sticky top-0" style={{ justifyContent: 'space-between' }}>
+        <div className="navbar backdrop-blur-lg shadow-md sticky top-0 z-50" style={{ justifyContent: 'space-between' }}>
             <div className="navbar-start" style={{ width: 'auto' }}>
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-primary lg:hidden mr-2">
