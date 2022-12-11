@@ -1,8 +1,30 @@
 import logo from '../assets/logo.png';
 
 const Footer = () => {
+
+    const onSubscribe = (e) => {
+        e.preventDefault();
+        e.target.reset();
+        //alert("Thanks for Subscribing !");
+    }
+
     return (
         <>
+            <div className='my-6'>
+                <h1 className='text-5xl font-semibold text-center py-2'>Subscribe Newsletter</h1>
+                <p className='text-muted text-center font-semibold pt-2 pb-6'>Subscribe to our newsletter to get our latest update.</p>
+                <div className='flex justify-center'>
+                    <form onSubmit={(e)=>onSubscribe(e)} className='p-1 border-2 rounded'>
+                        <input className='p-3 w-[350px]' type="email" name="email" placeholder='Enter your email' />
+                        <input className='btn' type="submit" value="Subscribe" 
+                        style={{
+                            backgroundColor:"#f7782a",
+                            border:"0",
+                            color:"#ffffff"
+                            }}/>
+                    </form>
+                </div>
+            </div>
             <footer className="footer p-10 md:px-28">
                 <div>
                 <span className="text-xl font-semibold text-black mb-4">Categories</span>
