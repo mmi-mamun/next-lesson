@@ -1,7 +1,8 @@
 import MainLayout from "../../layouts/mainLayout";
 
 
-const Checkout = () => {
+
+const Cart = () => {
 
     return (
         <MainLayout>
@@ -44,7 +45,23 @@ const Checkout = () => {
                     <div className="flex flex-col w-full ml-0 lg:ml-12 lg:w-2/5">
                         <div className="pt-12 md:pt-0 2xl:ps-4">
                             <div className="border border-orange-500  mb-96 p-3">
-                                <h2 className="text-xl font-bold">Order Summary</h2>
+                                <h2 className="text-xl font-bold">Card Details</h2>
+                                <div className="flex justify-between mt-4">
+                                    <div className="form-control w-full max-w-xs">
+                                        <label className="label">
+                                            <span className="label-text">Name on Card</span>
+                                        </label>
+                                        <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs" />
+                                    </div>
+                                </div>
+                                <div className="flex justify-between">
+                                <div className="form-control w-full max-w-xs">
+                                        <label className="label">
+                                            <span className="label-text">Card Number</span>
+                                        </label>
+                                        <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs" />
+                                    </div>
+                                </div>
                                 <div className="flex justify-between mt-4">
                                     <h2>Original Price: </h2>
                                     <p>{99}</p>
@@ -58,7 +75,7 @@ const Checkout = () => {
                                     <h2>Total: </h2>
                                     <p>{60}</p>
                                 </div>
-                                <button className="btn btn-primary w-full justify-center mt-5">Checkout</button>
+                                <button className="btn btn-primary w-full justify-center mt-5">Complete Payment</button>
                             </div>
                         </div>
                     </div>
@@ -72,4 +89,4 @@ const Checkout = () => {
     );
 }
 
-export default Checkout;
+export default Cart;
