@@ -1,12 +1,12 @@
 import MainLayout from "../../layouts/mainLayout";
 import Banner from "./banner";
+import Discover from "./discover";
 
 const Home = () => {
     return (
         <MainLayout>
-            <div>
-                <Banner />
-            </div>
+            <Banner />
+            <Discover />
         </MainLayout>
     );
 }
