@@ -14,6 +14,11 @@
             "Programming",
             "Web",
             "Business"
+        ],
+        "teachers": [
+            "mi-mamun",
+            "niloy-mahmud",
+            "minhaj-mia"
         ]
     },
     {
@@ -30,6 +35,11 @@
             "Programming",
             "Web",
             "Business"
+        ],
+        "teachers": [
+            "niloy-mahmud",
+            "mirza-adnan",
+            "minhaj-mia"
         ]
     },
     {
@@ -46,6 +56,11 @@
             "Programming",
             "Design",
             "Web"
+        ],
+        "teachers": [
+            "mi-mamun",
+            "niloy-mahmud",
+            "mirza-adnan"
         ]
     },
     {
@@ -63,6 +78,12 @@
             "Programming",
             "Web",
             "Business"
+        ],
+        "teachers": [
+            "mi-mamun",
+            "niloy-mahmud",
+            "mihir-roy",
+            "minhaj-mia"
         ]
     },
     {
@@ -79,6 +100,11 @@
             "Programming",
             "Web",
             "Business"
+        ],
+        "teachers": [
+            "minhaj-mia",
+            "moinul-islam",
+            "mihir-roy"
         ]
     },
     {
@@ -95,6 +121,10 @@
             "Design",
             "Web",
             "Business"
+        ],
+        "teachers": [
+            "moinul-islam",
+            "mihir-roy"
         ]
     },
     {
@@ -111,6 +141,11 @@
             "Design",
             "Web",
             "Business"
+        ],
+        "teachers": [
+            "mi-mamun",
+            "moinul-islam",
+            "mihir-roy"
         ]
     },
     {
@@ -127,6 +162,12 @@
             "Design",
             "Graphics",
             "Business"
+        ],
+        "teachers": [
+            "niloy-mahmud",
+            "mirza-adnan",
+            "minhaj-mia",
+            "moinul-islam"
         ]
     },
     {
@@ -143,6 +184,12 @@
             "Design",
             "Graphics",
             "Business"
+        ],
+        "teachers": [
+            "mirza-adnan",
+            "minhaj-mia",
+            "moinul-islam",
+            "mihir-roy"
         ]
     },
     {
@@ -157,6 +204,12 @@
         "fee": 1800,
         "categories": [
             "Business"
+        ],
+        "teachers": [
+            "mi-mamun",
+            "niloy-mahmud",
+            "mirza-adnan",
+            "mihir-roy"
         ]
     },
     {
@@ -171,6 +224,12 @@
         "fee": 2500,
         "categories": [
             "Business"
+        ],
+        "teachers": [
+            "mi-mamun",
+            "niloy-mahmud",
+            "mirza-adnan",
+            "minhaj-mia"
         ]
     },
     {
@@ -187,6 +246,11 @@
             "Design",
             "Graphics",
             "Business"
+        ],
+        "teachers": [
+            "mi-mamun",
+            "niloy-mahmud",
+            "mihir-roy"
         ]
     }
 ]
