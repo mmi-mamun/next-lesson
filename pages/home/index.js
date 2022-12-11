@@ -1,13 +1,7 @@
-import MainLayout from "../../layouts/mainLayout";
+import Home from '../../components/home/home';
 
-const Home = () => {
-    return (
-        <MainLayout>
-            <div>
-                this is home
-            </div>
-        </MainLayout>
-    );
+const HomePage = () => {
+    return <Home />
 }
 
-export default Home;
+export default HomePage;
