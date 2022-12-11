@@ -1,10 +1,11 @@
 import MainLayout from "../../layouts/mainLayout";
+import Banner from "./banner";
 
 const Home = () => {
     return (
         <MainLayout>
-            <div className="h-screen">
-                this is home
+            <div>
+                <Banner />
             </div>
         </MainLayout>
     );
