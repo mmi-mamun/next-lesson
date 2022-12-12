@@ -10,12 +10,12 @@ const Footer = () => {
 
     return (
         <>
-            <div className='my-6'>
-                <h1 className='text-5xl font-semibold text-center py-2'>Subscribe Newsletter</h1>
+            <div className='my-6 px-3'>
+                <h1 className='text-3xl sm:text-5xl font-semibold text-center py-2'>Subscribe Newsletter</h1>
                 <p className='text-muted text-center font-semibold pt-2 pb-6'>Subscribe to our newsletter to get our latest update.</p>
                 <div className='flex justify-center'>
-                    <form onSubmit={(e)=>onSubscribe(e)} className='p-1 border-2 rounded'>
-                        <input className='p-3 w-[350px]' type="email" name="email" placeholder='Enter your email' />
+                    <form onSubmit={(e)=>onSubscribe(e)} className='p-1 border-2 rounded flex items-center'>
+                        <input className='p-3 w-[150px] sm:w-auto' type="email" name="email" placeholder='Enter your email' />
                         <input className='btn' type="submit" value="Subscribe" 
                         style={{
                             backgroundColor:"#f7782a",

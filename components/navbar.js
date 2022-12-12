@@ -19,7 +19,7 @@ const Navbar = () => {
     </>
     return (
         <>
-            <div className="navbar backdrop-blur-lg shadow-md sticky top-0 z-50" style={{ justifyContent: 'space-between' }}>
+            <div className="navbar bg-white/50 backdrop-blur-lg shadow-md sticky top-0 z-50" style={{ justifyContent: 'space-between' }}>
                 <div className="navbar-start" style={{ width: 'auto' }}>
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-primary lg:hidden mr-2">
