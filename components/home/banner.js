@@ -6,7 +6,7 @@ const Banner = () => {
 
     return (
         <>
-            <div className="min-h-[80vh] flex justify-center items-start" style={{
+            <div className="min-h-[92vh] flex justify-center items-start" style={{
                 backgroundImage: `url('https://i.ibb.co/0G2w9pp/illustration-university-graduates-53876-28466.webp')`,
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
