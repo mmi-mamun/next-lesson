@@ -6,6 +6,7 @@ const Teacher = () => {
     return (
         <div>
             this is Teacher {teacherId}
+            <h1>I am ready to programming</h1>
         </div>
     );
 }
