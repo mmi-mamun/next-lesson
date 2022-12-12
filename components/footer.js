@@ -1,11 +1,15 @@
-import logo from '../assets/logo.png';
+import Swal from 'sweetalert2';
 
 const Footer = () => {
 
     const onSubscribe = (e) => {
         e.preventDefault();
         e.target.reset();
-        //alert("Thanks for Subscribing !");
+        Swal.fire(
+            'Thanks !',
+            'We will send your our updates regularly.',
+            'success'
+          );
     }
 
     return (
