@@ -46,8 +46,8 @@ const Teacher = () => {
                     <div className="mt-12">
                         <h1 className="text-2xl font-bold text-black">My Courses({teacherCourses.length})</h1>
                     </div>
-                    <div className="mt-12">
-                        <div className="grid lg:grid-cols-3 gap-4 grid-cols-1 lg:mx-12 mt-12">
+                    <div className="max-w-[1440px] mx-auto mt-12">
+                        <div className="flex justify-center items-stretch flex-wrap gap-8 mx-3 lg:mx-12 mt-12">
                             {
                                 teacherCourses.map((course, i) => <CourseCard course={course} key={i} />)
                             }

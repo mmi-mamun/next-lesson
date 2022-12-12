@@ -15,12 +15,12 @@ const allteachers = () => {
 
     return (
         <MainLayout>
-            <div className="">
+            <div className="max-w-7xl mx-auto">
 
                 <div className="mt-12 lg:mx-12">
                     <h1 className="text-2xl font-bold text-black">Popular Instructors</h1>
                 </div>
-                <div className="grid lg:grid-cols-3 gap-4 grid-cols-1 lg:mx-12 mt-12 ">
+                <div className="flex justify-center items-center flex-wrap gap-8 mx-3 lg:mx-12 mt-12 ">
                     {/* {
                             teacherAll.map(teacher => <div className="card w-96 bg-base-100 shadow-xl">
                                 <figure><img className="" src={teacher.img} />  </figure>

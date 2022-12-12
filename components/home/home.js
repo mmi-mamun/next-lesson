@@ -1,4 +1,5 @@
 import MainLayout from "../../layouts/mainLayout";
+import StudentReview from "../studentReview";
 import Banner from "./banner";
 import Discover from "./discover";
 import LargestCollection from "./largestCollection";
@@ -11,6 +12,7 @@ const Home = () => {
             <LargestCollection />
             <Discover />
             <LatestTips />
+            <StudentReview />
         </MainLayout>
     );
 }
