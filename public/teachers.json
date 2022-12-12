@@ -6,16 +6,16 @@
         "img": "https://i.ibb.co/m5DfXsT/mamun.png"
     },
     {
-        "instructorID": "mirza-adnan",
-        "name": "Mirza Adnan",
-        "rating": "4.8",
-        "img": "https://i.ibb.co/6ZJPk2q/mirza-adnan.jpg"
-    },
-    {
         "instructorID": "niloy-mahmud",
         "name": "Niloy Mahmud Apu",
         "rating": "4.8",
         "img": "https://i.ibb.co/PC8f9dk/Screenshot-20220509-205509-2.jpg"
+    },
+    {
+        "instructorID": "mirza-adnan",
+        "name": "Mirza Adnan",
+        "rating": "4.8",
+        "img": "https://i.ibb.co/6ZJPk2q/mirza-adnan.jpg"
     },
     {
         "instructorID": "minhaj-mia",
