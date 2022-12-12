@@ -5,39 +5,31 @@ import courses from '/public/courses.json';
 import { FaStar, FaCheck } from 'react-icons/fa';
 
 const Course = () => {
-    let fixedId = "CRS02";
     const { query: { courseId } } = useRouter();
     const [toggle, setToggle] = useState(true);
     console.log(courseId)
-    if(courseId){
-        fixedId = courseId;
-    }
+    const [course, setCourse] = useState({});
+    const [isLoading, setLoading] = useState(true)
 
-    console.log(courses);
+    console.log(course);
 
-    const course = courses.find(({ id }) => id === fixedId);
+    useEffect(() => {
+        if (courseId) {
+            fetch(`/api/course/${courseId}`)
+                .then((res) => res.json())
+                .then((course) => {
+                    setCourse(course)
+                    setLoading(false)
+                })
+        }
+    }, [courseId])
+
     console.log(course);
     const { title, img, description, level, duration, categories, prerequisite, fee } = course;
-    // const [data, setData] = useState(null)
-    // const [isLoading, setLoading] = useState(false)
 
-    // useEffect(() => {
-    //     setLoading(true)
-    //     fetch(`/api/courses`)
-    //         .then((res) => {
-    //             res.json()
-    //         })
-    //         .then((data) => {
-    //             console.log(data);
-    //             setData(data)
-    //             setLoading(false)
-    //         })
-    // }, [])
-
-    // console.log(data);
-
-    // if (isLoading) return <MainLayout><p>Loading...</p></MainLayout>
-    // if (!data) return <MainLayout><p>No profile data</p></MainLayout>
+    if (isLoading) return <MainLayout><p>Loading...</p></MainLayout>
+    if (!course) return <MainLayout><p>No profile data</p></MainLayout>
+    
     return (
         <MainLayout>
             <div>
@@ -46,7 +38,7 @@ const Course = () => {
                         <img src={img} className="w-full md:w-2/5 rounded-lg shadow-lg" />
                         <div className='w-full md:w-3/5 px-10'>
                             <div className='flex items-center justify-between'>
-                                <span style={{ color: "#f7782a" }}>{categories[0]}</span>
+                                {categories[0] && <span style={{ color: "#f7782a" }}>{categories[0]}</span>}
                                 <div className='flex'>
                                     <FaStar style={{ color: "#f7782a" }} />
                                     <FaStar style={{ color: "#f7782a" }} />
@@ -100,7 +92,7 @@ const Course = () => {
                         <h2
                             onClick={() => setToggle(!toggle)}
                             className={`text-3xl font-semibold my-2 mr-10 ${toggle && "text-orange-500"}`}
-                            style={{ cursor: `pointer` }} 
+                            style={{ cursor: `pointer` }}
                         >Overview</h2>
 
                         <h2
@@ -188,7 +180,7 @@ const Course = () => {
                             <hr />
                             <div className='flex p-5'>
                                 <div className='w-1/4 flex flex-col items-center justify-around'>
-                                    <img className='w-24 rounded-lg' src="https://i.ibb.co/vDJSV6B/tom.jpg" alt=''/>
+                                    <img className='w-24 rounded-lg' src="https://i.ibb.co/vDJSV6B/tom.jpg" alt='' />
                                     <h1 className='text-center font-semibold text-xl mb-1'>Tom Cruise</h1>
                                     <p className='text-center text-muted mb-1'>Web Developer</p>
                                     <div className='flex justify-center'>
@@ -200,13 +192,13 @@ const Course = () => {
                                     </div>
                                 </div>
                                 <p className='w-3/4 pt-5'>
-                                "I've never completed a course like this before (remote instruction) and I cannot express how great the instructor was and the overall content of the material. I would defintely recommend this to my co-workers as well as friends. I will be looking into taking more of these classes through ONLC in the near future. Thank you!"
+                                    "I've never completed a course like this before (remote instruction) and I cannot express how great the instructor was and the overall content of the material. I would defintely recommend this to my co-workers as well as friends. I will be looking into taking more of these classes through ONLC in the near future. Thank you!"
                                 </p>
                             </div>
                             <hr />
                             <div className='flex p-5'>
                                 <div className='w-1/4 flex flex-col items-center justify-around'>
-                                    <img className='w-24 rounded-lg' src="https://i.ibb.co/WDn1pLg/hulk.png" alt=''/>
+                                    <img className='w-24 rounded-lg' src="https://i.ibb.co/WDn1pLg/hulk.png" alt='' />
                                     <h1 className='text-center font-semibold text-xl mb-1'>Cave Man</h1>
                                     <p className='text-center text-muted mb-1'>Web Developer</p>
                                     <div className='flex justify-center'>
@@ -218,13 +210,13 @@ const Course = () => {
                                     </div>
                                 </div>
                                 <p className='w-3/4 pt-5'>
-                                "I've never completed a course like this before (remote instruction) and I cannot express how great the instructor was and the overall content of the material. I would defintely recommend this to my co-workers as well as friends. I will be looking into taking more of these classes through ONLC in the near future. Thank you!"
+                                    "I've never completed a course like this before (remote instruction) and I cannot express how great the instructor was and the overall content of the material. I would defintely recommend this to my co-workers as well as friends. I will be looking into taking more of these classes through ONLC in the near future. Thank you!"
                                 </p>
                             </div>
                             <hr />
                             <div className='flex p-5'>
                                 <div className='w-1/4 flex flex-col items-center justify-around'>
-                                    <img className='w-24 rounded-lg' src="https://i.ibb.co/SKLs6NJ/wiz.jpg" alt=''/>
+                                    <img className='w-24 rounded-lg' src="https://i.ibb.co/SKLs6NJ/wiz.jpg" alt='' />
                                     <h1 className='text-center font-semibold text-xl mb-1'>Mr. Wizard</h1>
                                     <p className='text-center text-muted mb-1'>Web Developer</p>
                                     <div className='flex justify-center'>
@@ -236,13 +228,13 @@ const Course = () => {
                                     </div>
                                 </div>
                                 <p className='w-3/4 pt-5'>
-                                "I've never completed a course like this before (remote instruction) and I cannot express how great the instructor was and the overall content of the material. I would defintely recommend this to my co-workers as well as friends. I will be looking into taking more of these classes through ONLC in the near future. Thank you!"
+                                    "I've never completed a course like this before (remote instruction) and I cannot express how great the instructor was and the overall content of the material. I would defintely recommend this to my co-workers as well as friends. I will be looking into taking more of these classes through ONLC in the near future. Thank you!"
                                 </p>
                             </div>
                             <hr />
                             <div className='flex p-5'>
                                 <div className='w-1/4 flex flex-col items-center justify-around'>
-                                    <img className='w-24 rounded-lg' src="https://i.ibb.co/VQhz6Nt/profile.jpg" alt=''/>
+                                    <img className='w-24 rounded-lg' src="https://i.ibb.co/VQhz6Nt/profile.jpg" alt='' />
                                     <h1 className='text-center font-semibold text-xl mb-1'>Master Oogway</h1>
                                     <p className='text-center text-muted mb-1'>Web Developer</p>
                                     <div className='flex justify-center'>
@@ -254,7 +246,7 @@ const Course = () => {
                                     </div>
                                 </div>
                                 <p className='w-3/4 pt-5'>
-                                "I've never completed a course like this before (remote instruction) and I cannot express how great the instructor was and the overall content of the material. I would defintely recommend this to my co-workers as well as friends. I will be looking into taking more of these classes through ONLC in the near future. Thank you!"
+                                    "I've never completed a course like this before (remote instruction) and I cannot express how great the instructor was and the overall content of the material. I would defintely recommend this to my co-workers as well as friends. I will be looking into taking more of these classes through ONLC in the near future. Thank you!"
                                 </p>
                             </div>
                         </div>
