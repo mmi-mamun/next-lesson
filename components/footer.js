@@ -1,5 +1,3 @@
-import logo from '../assets/logo.png';
-
 const Footer = () => {
 
     const onSubscribe = (e) => {
