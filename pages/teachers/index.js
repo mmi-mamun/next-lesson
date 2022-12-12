@@ -45,15 +45,26 @@ const allteachers = () => {
                                   
                                     <h2 className="card-title">{teacher.rating} <FaStar className="text-yellow-500"></FaStar></h2>
                                     <p class="mb-3 font-normal text-black ">{teacher.name}</p>
-                                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-orange-500 rounded-lg">
+                                    <Link href="/teachers/[instructorID]" as={`/teachers/${teacher.instructorID}`} class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-orange-500 rounded-lg">
                                         View Profile
                                         
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             )
                         }
                     </div>
+                    <div className="lg:mx-12 mt-12">
+                    <div className="text-center">
+                        <div className="btn-group gap-4">
+                            <button className="btn bg-orange-600 text-white">1</button>
+                            <button className="btn bg-white text-black">2</button>
+                            <button className="btn bg-white text-black">3</button>
+                            <button className="btn bg-white text-black">4</button>
+                            <button className="btn bg-orange-600 text-white">Next</button>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </MainLayout>
         </div>
