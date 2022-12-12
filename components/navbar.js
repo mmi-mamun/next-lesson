@@ -11,7 +11,7 @@ const Navbar = () => {
     const menus = <>
         <li><Link href="/home" className={`mx-0.5 ${route === '/home' && "bg-primary"}`} >Home</Link></li>
         <li><Link href="/checkout" className={`mx-0.5 ${route === '/checkout' && "bg-primary"}`} >Checkout</Link></li>
-        <li><Link href="/categories" className={`mx-0.5 ${route === '/categories' && "bg-primary"}`} >Categories</Link></li>
+        <li><Link href="/courses" className={`mx-0.5 ${route === '/courses' && "bg-primary"}`} >Courses</Link></li>
         <li><Link href="/teachers" className={`mx-0.5 ${route === '/teachers' && "bg-primary"}`} >Teachers</Link></li>
         <li><Link href="/contact" className={`mx-0.5 ${route === '/contacts' && "bg-primary"}`} >Contact</Link></li>
         <li><Link href="/about" className={`mx-0.5 ${route === '/about' && "bg-primary"}`} >About</Link></li>
