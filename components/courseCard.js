@@ -5,7 +5,7 @@ const CourseCard = ({ course: { id, title, img, description, duration, fee } }) 
     const [fullTxt, setFullTxt] = useState(false);
 
     return (
-        <div className="relative w-Txt sm:max-w-sm bg-slate-100 rounded-xl overflow-hidden shadow-md">
+        <div className="relative w-full sm:max-w-sm bg-slate-100 rounded-xl overflow-hidden shadow-md">
             <img className="w-full" src={img} alt={title} />
             <div className="p-5 flex flex-col gap-5 pb-20">
                 <small className="flex justify-between items-center">

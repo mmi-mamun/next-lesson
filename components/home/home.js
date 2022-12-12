@@ -2,6 +2,7 @@ import MainLayout from "../../layouts/mainLayout";
 import Banner from "./banner";
 import Discover from "./discover";
 import LargestCollection from "./largestCollection";
+import LatestTips from "./latestTips";
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <Banner />
             <LargestCollection />
             <Discover />
+            <LatestTips />
         </MainLayout>
     );
 }
