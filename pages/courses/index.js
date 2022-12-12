@@ -17,9 +17,9 @@ const Courses = () => {
   console.log(courses);
   return (
     <MainLayout>
-      <div className="mb-10">
-        <h2 className="text-3xl font-bold text-center my-5">All Courses</h2>
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-5 md:mx-20 gap-10">
+      <div className="max-w-7xl mx-auto my-12 sm:my-24">
+        <h2 className="text-3xl sm:text-5xl font-bold text-center mb-12">All Courses</h2>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 mx-5 md:mx-20 gap-10">
           {courses?.map((course) => (
             <CourseCard course={course} />
           ))}
