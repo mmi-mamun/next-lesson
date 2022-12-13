@@ -12,7 +12,10 @@ const StudentReview = () => {
           with us if you find any comfortable.
         </p>
       </div>
+
+
       <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3">
+
         <div className="p-5 duration-300 transform bg-slate-50 border rounded shadow-sm hover:-translate-y-2">
           <div
             className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50"
@@ -48,6 +51,7 @@ const StudentReview = () => {
             </div>
           </div>
         </div>
+
         <div className="p-5 duration-300 transform bg-black text-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center mb-5">
             <a href="/" aria-label="Author" title="Author" className="mr-3">
@@ -77,6 +81,7 @@ const StudentReview = () => {
             been threatened once more.
           </p>
         </div>
+
         <div className="p-5 duration-300 transform bg-slate-50 border rounded shadow-sm hover:-translate-y-2">
           <div
             className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50"
@@ -112,6 +117,7 @@ const StudentReview = () => {
             </div>
           </div>
         </div>
+
         <div className="p-5 duration-300 transform bg-black text-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center mb-5">
             <a href="/" aria-label="Author" title="Author" className="mr-3">
@@ -141,6 +147,7 @@ const StudentReview = () => {
             been threatened once more.
           </p>
         </div>
+
         <div className="p-5 duration-300 transform bg-slate-50 border rounded shadow-sm hover:-translate-y-2">
           <div
             className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50"
@@ -176,6 +183,7 @@ const StudentReview = () => {
             </div>
           </div>
         </div>
+
         <div className="p-5 duration-300 transform bg-black text-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center mb-5">
             <a href="/" aria-label="Author" title="Author" className="mr-3">
@@ -205,6 +213,7 @@ const StudentReview = () => {
             been threatened once more.
           </p>
         </div>
+
       </div>
     </div>
   );
