@@ -29,7 +29,7 @@ const Navbar = () => {
                             {menus}
                         </ul>
                     </div>
-                    <Link href="/"><img className="h-6" src={'https://i.ibb.co/tDTSd8v/logo.png'} alt="logo" /></Link>
+                    <Link href="/"><img className="h-6 lg:pl-8" src={'https://i.ibb.co/tDTSd8v/logo.png'} alt="logo" /></Link>
                 </div>
                 <div className="navbar-end hidden lg:flex" style={{ width: 'auto' }}>
                     <ul className="menu menu-horizontal px-1">
