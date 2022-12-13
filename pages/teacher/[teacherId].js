@@ -30,7 +30,7 @@ const Teacher = () => {
             <MainLayout>
 
                 <div className="lg:mx-12 mt-12">
-                    <div className="card lg:w-4/5 lg:card-side border-2 bg-base-100 shadow-xl">
+                    <div className="card lg:w-4/5 lg:card-side border-2 bg-base-100 shadow-xl mx-auto">
                         <figure><img className="lg:h-56 lg:w-80" src={teacherProfile.img} alt="Album" /></figure>
                         <div className="card-body">
                             <h2 className="text-2xl font-bold text-black">{teacherProfile.name}</h2>
@@ -44,7 +44,7 @@ const Teacher = () => {
                 </div>
                 <div className="lg:mx-12">
                     <div className="mt-12">
-                        <h1 className="text-2xl font-bold text-black">My Courses({teacherCourses.length})</h1>
+                        <h1 className="text-2xl font-bold text-black text-center">Courses of {teacherProfile.name} ({teacherCourses.length})</h1>
                     </div>
                     <div className="max-w-[1440px] mx-auto mt-12">
                         <div className="flex justify-center items-stretch flex-wrap gap-8 mx-3 lg:mx-12 mt-12">
