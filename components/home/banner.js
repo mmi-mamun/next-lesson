@@ -5,19 +5,12 @@ import { gsap } from "gsap";
 const Banner = () => {
     const [modal, setModal] = useState(null);
 
-    const onEnter = ({currentTarget}) => {
-        gsap.to(currentTarget,{
-            //scale:1.2,
-            rotation:30
+    const onEnter = ({ currentTarget }) => {
+        gsap.to(currentTarget, {
+            y: 350,
+            duration: 3
         })
     }
-    const onLeave = ({currentTarget}) => {
-        gsap.to(currentTarget,{
-            //scale:1.2,
-            rotation:-30
-        })
-    }
-
     return (
         <>
             <div className="min-h-[92vh] flex justify-center items-start" style={{
@@ -26,7 +19,7 @@ const Banner = () => {
                 backgroundSize: 'cover',
                 backgroundPosition: 'bottom'
             }}>
-                <div onMouseEnter={onEnter} onMouseLeave={onLeave} className="py-8 px-5 sm:px-8 text-center rounded-xl shadow-xl my-12 mx-3 backdrop-blur-xl">
+                <div onMouseEnter={onEnter}  className="py-8 px-5 sm:px-8 text-center rounded-xl shadow-xl my-12 mx-3 backdrop-blur-xl">
                     <h2 className="text-2xl sm:text-4xl font-semibold">Explore Your Creativity</h2>
                     <p className="my-2 max-w-xl">What are you waiting for? Just enroll and get skilled, you idiot.</p>
                     <label htmlFor="registrationModal" className="btn" onClick={() => setModal({ close: setModal })}>Register Now</label>
