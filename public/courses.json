@@ -2,7 +2,7 @@
     {
         "id": "CRS01",
         "title": "Android App Development",
-        "img": "https://i.ibb.co/YZDYnyn/Android-Studio.jpg",
+        "img": "https://i.ibb.co/kKDVC5v/android-studio.png",
         "description": "Learn how Kotlin helped their teams become more productive and write higher quality apps. Write better Android apps faster with Kotlin. A modern mobile app programming language.",
         "prerequisite": "Not Requird",
         "level": "Advanced Beginner",
@@ -14,17 +14,12 @@
             "Programming",
             "Web",
             "Business"
-        ],
-        "teachers": [
-            "mi-mamun",
-            "niloy-mahmud",
-            "minhaj-mia"
         ]
     },
     {
         "id": "CRS02",
         "title": "Python with Django",
-        "img": "https://i.ibb.co/s6Xz1M2/django.jpg",
+        "img": "https://i.ibb.co/J7h07CD/django.png",
         "description": "Django is a high-level Python web framework that enables rapid development of secure and maintainable websites. Built by experienced developers, Django takes care of much of the hassle of web development",
         "prerequisite": "Basic Python",
         "level": "Senior developer",
@@ -35,17 +30,12 @@
             "Programming",
             "Web",
             "Business"
-        ],
-        "teachers": [
-            "niloy-mahmud",
-            "mirza-adnan",
-            "minhaj-mia"
         ]
     },
     {
         "id": "CRS03",
         "title": "JavaScript A - Z",
-        "img": "https://i.ibb.co/2Zwsv4H/Java-Script.jpg",
+        "img": "https://i.ibb.co/cNCfXBM/js.jpg",
         "description": "JavaScript is the Programming Language for the Web. JavaScript can update and change both HTML and CSS. JavaScript can calculate, manipulate and validate data.",
         "prerequisite": "Not Requird",
         "level": "Beginner",
@@ -56,17 +46,12 @@
             "Programming",
             "Design",
             "Web"
-        ],
-        "teachers": [
-            "mi-mamun",
-            "niloy-mahmud",
-            "mirza-adnan"
         ]
     },
     {
         "id": "CRS04",
         "title": "MERN Stack Development",
-        "img": "https://i.ibb.co/JFzTSHS/MERN.jpg",
+        "img": "https://i.ibb.co/6m3MQKN/mern-stack.png",
         "description": "MERN is one of several variations of the MEAN stack (MongoDB Express Angular Node), where the traditional Angular.js front-end framework is replaced with React.js.",
         "prerequisite": "HTML & CSS",
         "level": "Junior developer",
@@ -78,18 +63,12 @@
             "Programming",
             "Web",
             "Business"
-        ],
-        "teachers": [
-            "mi-mamun",
-            "niloy-mahmud",
-            "mihir-roy",
-            "minhaj-mia"
         ]
     },
     {
         "id": "CRS05",
         "title": "PHP with Laravel",
-        "img": "https://i.ibb.co/StBSknf/Leravel.jpg",
+        "img": "https://i.ibb.co/GnTVpr6/php-laravel.png",
         "description": "Laravel is a PHP-based, MVC architecture that relies on OOP to create websites, databases, forums, and caches. The framework's tools and libraries let Laravel developers quickly develop robust software that is scalable.",
         "prerequisite": "Basic PHP",
         "level": "Mid-level developer",
@@ -100,17 +79,12 @@
             "Programming",
             "Web",
             "Business"
-        ],
-        "teachers": [
-            "minhaj-mia",
-            "moinul-islam",
-            "mihir-roy"
         ]
     },
     {
         "id": "CRS06",
         "title": "Web Development",
-        "img": "https://i.ibb.co/rkqPD8J/HTML.jpg",
+        "img": "https://i.ibb.co/R0PcFTX/web-dev.jpg",
         "description": "Web development, also known as website development, refers to the tasks associated with creating, building, and maintaining websites and web applications that run online on a browser.",
         "prerequisite": "Not Requird",
         "level": "Beginner",
@@ -121,16 +95,12 @@
             "Design",
             "Web",
             "Business"
-        ],
-        "teachers": [
-            "moinul-islam",
-            "mihir-roy"
         ]
     },
     {
         "id": "CRS07",
         "title": "UI & UX Design",
-        "img": "https://i.ibb.co/cy3RqD2/UI.jpg",
+        "img": "https://aufaitux.com/wp-content/uploads/2020/05/UIUX-designing-1.jpg",
         "description": "The term ‘UI/UX design process’ was first introduced in the late 1990s by the famous designer and cognitive Psychologist Donald Norman. Since then, a lot of studies have been conducted in the field by different industries for utilizing it to their advantage.",
         "prerequisite": "Not Requird",
         "level": "Beginner",
@@ -141,17 +111,12 @@
             "Design",
             "Web",
             "Business"
-        ],
-        "teachers": [
-            "mi-mamun",
-            "moinul-islam",
-            "mihir-roy"
         ]
     },
     {
         "id": "CRS08",
         "title": "Motion Graphics",
-        "img": "https://i.ibb.co/Xjcb9gw/Motion.jpg",
+        "img": "https://animationskill.com/wp-content/uploads/2019/06/motion-graphics-inspiration.jpg",
         "description": "Motion graphics is a dynamic image that can be produced through graphics, photography, video and audio, or a combination of these. They have a communicative purpose through visual attraction instead of using text or images in a fixed way that have a less striking result for the public.",
         "prerequisite": "Not Requird",
         "level": "Beginner",
@@ -162,18 +127,12 @@
             "Design",
             "Graphics",
             "Business"
-        ],
-        "teachers": [
-            "niloy-mahmud",
-            "mirza-adnan",
-            "minhaj-mia",
-            "moinul-islam"
         ]
     },
     {
         "id": "CRS09",
         "title": "PhotoShop",
-        "img": "https://i.ibb.co/nLj1x2g/photoshop.jpg",
+        "img": "https://www.bizzbuzz.news/h-upload/2022/06/22/1600x960_1551950-photoshop.jpg",
         "description": "Even if you've never worked with images on your computer, you may have heard of Adobe Photoshop. Available for both Windows and Mac, Adobe Photoshop is an extremely powerful application that's used by many professional photographers and designers.",
         "prerequisite": "Not Requird",
         "level": "Beginner",
@@ -184,18 +143,12 @@
             "Design",
             "Graphics",
             "Business"
-        ],
-        "teachers": [
-            "mirza-adnan",
-            "minhaj-mia",
-            "moinul-islam",
-            "mihir-roy"
         ]
     },
     {
         "id": "CRS10",
         "title": "Photography",
-        "img": "https://i.ibb.co/2yFq0fK/Photography.jpg",
+        "img": "https://dvyvvujm9h0uq.cloudfront.net/com/articles/1518439695-blog-photographybusiness.jpg",
         "description": "Are you thinking of starting a photography business? Getting the basics right at the beginning will save you a lot of hassles later on and pave the way for a successful career",
         "prerequisite": "Not Requird",
         "level": "Beginner",
@@ -204,18 +157,12 @@
         "fee": 1800,
         "categories": [
             "Business"
-        ],
-        "teachers": [
-            "mi-mamun",
-            "niloy-mahmud",
-            "mirza-adnan",
-            "mihir-roy"
         ]
     },
     {
         "id": "CRS11",
         "title": "Marketing",
-        "img": "https://i.ibb.co/9y8jfQG/Marketing.jpg",
+        "img": "https://neilpatel.com/wp-content/uploads/2021/07/digital-marketing_featured-image.png",
         "description": "Digital marketing is the act of promoting products and services through digital channels, such as social media, SEO, email, and mobile apps. Any form of marketing that involves electronic devices is considered digital marketing.",
         "prerequisite": "Not Requird",
         "level": "Beginner",
@@ -224,19 +171,12 @@
         "fee": 2500,
         "categories": [
             "Business"
-        ],
-        "teachers": [
-            "mi-mamun",
-            "niloy-mahmud",
-            "mirza-adnan",
-            "minhaj-mia",
-            "moinul-islam"
         ]
     },
     {
         "id": "CRS12",
         "title": "Graphic Design",
-        "img": "https://i.ibb.co/hKS1KJc/Graphic-Design.jpg",
+        "img": "https://sgp1.digitaloceanspaces.com/cosmosgroup/news/1071218_Graphic-Design.jpg",
         "description": "Like most of us, the thought probably crossed your mind that how much can you earn by drawing stuff digitally? Graphics designing has been around since the dawn of the internet days and over time, the demand has increased exponentially.",
         "prerequisite": "Not Requird",
         "level": "Beginner",
@@ -247,11 +187,6 @@
             "Design",
             "Graphics",
             "Business"
-        ],
-        "teachers": [
-            "mi-mamun",
-            "niloy-mahmud",
-            "mihir-roy"
         ]
     }
 ]
