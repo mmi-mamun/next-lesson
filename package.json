@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.1",
     "daisyui": "^2.43.0",
     "gsap": "^3.11.3",
     "next": "13.0.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.0",
     "sweetalert2": "^11.6.15"
   },
   "devDependencies": {
