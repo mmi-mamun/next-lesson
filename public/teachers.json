@@ -1,122 +1,38 @@
 [
     {
-        "instructorID": 1,
+        "instructorID": "mi-mamun",
         "name": "MI Mamun",
         "rating": "4.8",
-        "img": "https://i.ibb.co/NC2MF0S/MMI-MAMUN.jpg",
-        "courses": [
-            "Android App Development",
-            "Python with Django",
-            "JavaScript A - Z",
-            "MERN Stack Development",
-            "PHP with Laravel",
-            "Web Development",
-            "UI & UX Design",
-            "Motion Graphics",
-            "PhotoShop",
-            "Photography",
-            "Marketing",
-            "Graphic Design"
-        ]
+        "img": "https://i.ibb.co/m5DfXsT/mamun.png"
     },
     {
-        "instructorID": 2,
-        "name": "Mirza Adnan",
-        "rating": "4.8",
-        "img": "https://i.ibb.co/6ZJPk2q/mirza-adnan.jpg",
-        "courses": [
-            "Android App Development",
-            "Python with Django",
-            "JavaScript A - Z",
-            "MERN Stack Development",
-            "PHP with Laravel",
-            "Web Development",
-            "UI & UX Design",
-            "Motion Graphics",
-            "PhotoShop",
-            "Photography",
-            "Marketing",
-            "Graphic Design"
-        ]
-    },
-    {
-        "instructorID": 3,
+        "instructorID": "niloy-mahmud",
         "name": "Niloy Mahmud Apu",
         "rating": "4.8",
-        "img": "https://ibb.co/WK1YPLC",
-        "courses": [
-            "Android App Development",
-            "Python with Django",
-            "JavaScript A - Z",
-            "MERN Stack Development",
-            "PHP with Laravel",
-            "Web Development",
-            "UI & UX Design",
-            "Motion Graphics",
-            "PhotoShop",
-            "Photography",
-            "Marketing",
-            "Graphic Design"
-        ]
+        "img": "https://i.ibb.co/PC8f9dk/Screenshot-20220509-205509-2.jpg"
     },
     {
-        "instructorID": 4,
+        "instructorID": "mirza-adnan",
+        "name": "Mirza Adnan",
+        "rating": "4.8",
+        "img": "https://i.ibb.co/6ZJPk2q/mirza-adnan.jpg"
+    },
+    {
+        "instructorID": "minhaj-mia",
         "name": "Minhaj Mia",
         "rating": "4.8",
-        "img": "https://ibb.co/t4Zddcq",
-        "courses": [
-            "Android App Development",
-            "Python with Django",
-            "JavaScript A - Z",
-            "MERN Stack Development",
-            "PHP with Laravel",
-            "Web Development",
-            "UI & UX Design",
-            "Motion Graphics",
-            "PhotoShop",
-            "Photography",
-            "Marketing",
-            "Graphic Design"
-        ]
+        "img": "https://i.ibb.co/56Y77vr/minhaj-vai.png"
     },
     {
-        "instructorID": 5,
+        "instructorID": "moinul-islam",
         "name": "Moinul Islam",
         "rating": "4.8",
-        "img": "https://i.ibb.co/6m31FDp/Moinul-Islam.jpg",
-        "courses": [
-            "Android App Development",
-            "Python with Django",
-            "JavaScript A - Z",
-            "MERN Stack Development",
-            "PHP with Laravel",
-            "Web Development",
-            "UI & UX Design",
-            "Motion Graphics",
-            "PhotoShop",
-            "Photography",
-            "Marketing",
-            "Graphic Design"
-        ]
+        "img": "https://i.ibb.co/6m31FDp/Moinul-Islam.jpg"
     },
     {
-        "instructorID": 6,
+        "instructorID": "mihir-roy",
         "name": "Mihir Roy",
         "rating": "4.8",
-        "img": "https://i.ibb.co/hDpMH2r/mihirimage.jpg",
-        "courses": [
-            "Android App Development",
-            "Python with Django",
-            "JavaScript A - Z",
-            "MERN Stack Development",
-            "PHP with Laravel",
-            "Web Development",
-            "UI & UX Design",
-            "Motion Graphics",
-            "PhotoShop",
-            "Photography",
-            "Marketing",
-            "Graphic Design"
-        ]
+        "img": "https://i.ibb.co/hDpMH2r/mihirimage.jpg"
     }
 ]
