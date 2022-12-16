@@ -10,7 +10,7 @@ const Navbar = () => {
 
     const menus = <>
         <li><Link href="/home" className={`mx-0.5 ${route === '/home' && "bg-primary text-white font-semibold"}`} >Home</Link></li>
-        <li><Link href="/checkout" className={`mx-0.5 ${route === '/checkout' && "bg-primary text-white font-semibold"}`} >Checkout</Link></li>
+        <li><Link href="/cart" className={`mx-0.5 ${route === '/cart' && "bg-primary text-white font-semibold"}`} >Cart</Link></li>
         <li><Link href="/courses" className={`mx-0.5 ${route === '/courses' && "bg-primary text-white font-semibold"}`} >Courses</Link></li>
         <li><Link href="/teachers" className={`mx-0.5 ${route === '/teachers' && "bg-primary text-white font-semibold"}`} >Teachers</Link></li>
         <li><Link href="/contact" className={`mx-0.5 ${route === '/contact' && "bg-primary text-white font-semibold"}`} >Contact</Link></li>
